@@ -2,6 +2,8 @@
 
 This package reproduces the Introduction to Scenes in China's eight figures. The data include final membership, topic, title-marker, and disciplinary coding. The scripts calculate publication summaries, citation histories, networks, and chart coordinates from those inputs.
 
+The replication package and methodological appendix were prepared with assistance from GPT-6 Astra.
+
 ## Run
 
 Use R 4.4.1, the version used for validation. Open a terminal in this folder and run:
