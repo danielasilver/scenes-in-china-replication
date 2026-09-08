@@ -75,7 +75,7 @@ p4 <- p4a + p4b + plot_layout(widths = c(0.82, 1.35)) +
   plot_annotation(
     title = "Chinese scenes research took off after 2020",
     caption = str_wrap(
-      "Panel A shows the annual number of Scenes publications. Panel B compares the cumulative number of publications that cite key selected Scenes articles at the same number of years after publication. Lines extend through the 2025 display cutoff, so recent articles have shorter citation histories.",
+      "Panel A shows the annual number of Scenes publications. Panel B compares the cumulative number of publications that cite key selected Scenes articles at the same number of years after publication.",
       width = 155
     ),
     theme = theme(
