@@ -1,0 +1,33 @@
+year,population,works,rolling_3yr,display_label
+2010,Adjacent/convergent,4,3,Neighboring work
+2011,Adjacent/convergent,5,4,Neighboring work
+2012,Adjacent/convergent,1,3.3333333333333335,Neighboring work
+2013,Adjacent/convergent,4,3.3333333333333335,Neighboring work
+2014,Adjacent/convergent,4,3,Neighboring work
+2015,Adjacent/convergent,11,6.333333333333333,Neighboring work
+2016,Adjacent/convergent,13,9.333333333333334,Neighboring work
+2017,Adjacent/convergent,15,13,Neighboring work
+2018,Adjacent/convergent,19,15.666666666666666,Neighboring work
+2019,Adjacent/convergent,26,20,Neighboring work
+2020,Adjacent/convergent,40,28.333333333333332,Neighboring work
+2021,Adjacent/convergent,44,36.666666666666664,Neighboring work
+2022,Adjacent/convergent,38,40.666666666666664,Neighboring work
+2023,Adjacent/convergent,52,44.666666666666664,Neighboring work
+2024,Adjacent/convergent,63,51,Neighboring work
+2025,Adjacent/convergent,67,60.666666666666664,Neighboring work
+2010,Confirmed Scenes,0,0,Scenes Publications
+2011,Confirmed Scenes,1,0.3333333333333333,Scenes Publications
+2012,Confirmed Scenes,2,1,Scenes Publications
+2013,Confirmed Scenes,1,1.3333333333333333,Scenes Publications
+2014,Confirmed Scenes,2,1.6666666666666667,Scenes Publications
+2015,Confirmed Scenes,6,3,Scenes Publications
+2016,Confirmed Scenes,4,4,Scenes Publications
+2017,Confirmed Scenes,13,7.666666666666667,Scenes Publications
+2018,Confirmed Scenes,7,8,Scenes Publications
+2019,Confirmed Scenes,19,13,Scenes Publications
+2020,Confirmed Scenes,28,18,Scenes Publications
+2021,Confirmed Scenes,46,31,Scenes Publications
+2022,Confirmed Scenes,54,42.666666666666664,Scenes Publications
+2023,Confirmed Scenes,78,59.333333333333336,Scenes Publications
+2024,Confirmed Scenes,82,71.33333333333333,Scenes Publications
+2025,Confirmed Scenes,99,86.33333333333333,Scenes Publications

@@ -1,0 +1,6 @@
+/outputs/
+/renv/library/
+/renv/staging/
+.Rhistory
+.RData
+.DS_Store

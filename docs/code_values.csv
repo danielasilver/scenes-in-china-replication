@@ -1,0 +1,97 @@
+file,variable,value,label
+data/chapter_sources.csv,branch_topic,ART_IDENTITY_EDUCATION,"Arts, identity, and critique"
+data/chapter_sources.csv,branch_topic,CULTURAL_CONSUMPTION_COMMERCIAL,Cultural consumption
+data/chapter_sources.csv,branch_topic,CULTURAL_CREATIVE_INNOVATION,Creative development and talent
+data/chapter_sources.csv,branch_topic,DIGITAL_VIRTUAL_MEDIA,Digital and virtual scenes
+data/chapter_sources.csv,branch_topic,POLICY_GOVERNANCE_MEASUREMENT,"Policy, governance, and city-making"
+data/chapter_sources.csv,branch_topic,PUBLIC_CULTURE_COMMUNITY,Public culture and community
+data/chapter_sources.csv,branch_topic,RURAL_DEVELOPMENT,Rural development
+data/chapter_sources.csv,branch_topic,TOURISM_HERITAGE_PLACE,"Tourism, heritage, and place"
+data/chapter_sources.csv,branch_topic,URBAN_RENEWAL_DESIGN,Urban renewal and design
+data/citation_counts.csv,database,Baidu Scholar,Baidu Scholar
+data/citation_counts.csv,database,Crossref,Crossref
+data/citation_counts.csv,database,Google Scholar,Google Scholar
+data/citation_counts.csv,database,OpenAlex,OpenAlex
+data/citation_counts.csv,database,Wanfang,Wanfang
+data/citation_counts.csv,confidence,T2,T2
+data/citing_publications.csv,document_type,book,book
+data/citing_publications.csv,document_type,conference paper,conference paper
+data/citing_publications.csv,document_type,doctoral thesis,doctoral thesis
+data/citing_publications.csv,document_type,journal article,journal article
+data/citing_publications.csv,document_type,master thesis,master thesis
+data/citing_publications.csv,document_type,policy essay,policy essay
+data/citing_publications.csv,document_type,preprint,preprint
+data/citing_publications.csv,document_type,scholar-indexed work,scholar-indexed work
+data/citing_publications.csv,document_type,thesis,thesis
+data/citing_publications.csv,document_type,translated journal article,translated journal article
+data/citing_publications.csv,document_type,unknown,unknown
+data/citing_publications.csv,language,en,en
+data/citing_publications.csv,language,unknown,unknown
+data/citing_publications.csv,language,zh,zh
+data/citing_publications.csv,language,中文,中文
+data/citing_publications.csv,harmonized_field,ARCH_DES_HER,"Architecture, design, and heritage"
+data/citing_publications.csv,harmonized_field,CULT_MEDIA,"Culture, arts, and media"
+data/citing_publications.csv,harmonized_field,ECON_BUS_CONS,"Economics, business, and consumption"
+data/citing_publications.csv,harmonized_field,EDUCATION,Education
+data/citing_publications.csv,harmonized_field,INFO_TECH,Information and library studies
+data/citing_publications.csv,harmonized_field,INTERDISC_OTHER,Interdisciplinary/other
+data/citing_publications.csv,harmonized_field,RURAL_AGRI,Rural and agricultural studies
+data/citing_publications.csv,harmonized_field,SOC_POLICY,Social science and policy
+data/citing_publications.csv,harmonized_field,SPORT_LEISURE,Sport and leisure
+data/citing_publications.csv,harmonized_field,TOUR_HOSP,Tourism and hospitality
+data/citing_publications.csv,harmonized_field,URBAN_PLAN_GEO,Urban planning and geography
+data/citing_publications.csv,field_confidence,T1,T1
+data/citing_publications.csv,field_confidence,T2,T2
+data/citing_publications.csv,field_confidence,T3,T3
+data/publications.csv,work_type,book,book
+data/publications.csv,work_type,collection article,collection article
+data/publications.csv,work_type,journal article,journal article
+data/publications.csv,work_type,thesis,thesis
+data/publications.csv,scenes_membership_tier,adjacent_convergent,adjacent_convergent
+data/publications.csv,scenes_membership_tier,confirmed_scenes,confirmed_scenes
+data/publications.csv,scenes_membership_tier,probable_scenes,probable_scenes
+data/publications.csv,scenes_core_member,FALSE,FALSE
+data/publications.csv,scenes_core_member,TRUE,TRUE
+data/publications.csv,primary_periodical,FALSE,FALSE
+data/publications.csv,primary_periodical,TRUE,TRUE
+data/publications.csv,primary_topic,ART_IDENTITY_EDUCATION,"Arts, identity, education"
+data/publications.csv,primary_topic,CULTURAL_CONSUMPTION_COMMERCIAL,Cultural consumption
+data/publications.csv,primary_topic,CULTURAL_CREATIVE_INNOVATION,Creative industries and innovation
+data/publications.csv,primary_topic,DIGITAL_VIRTUAL_MEDIA,"Digital, virtual, and media"
+data/publications.csv,primary_topic,INTERDISC_OTHER,Interdisciplinary/other
+data/publications.csv,primary_topic,POLICY_GOVERNANCE_MEASUREMENT,"Policy, governance, measurement"
+data/publications.csv,primary_topic,PUBLIC_CULTURE_COMMUNITY,Public culture and community
+data/publications.csv,primary_topic,RESIDENTIAL_HOUSING,Residential and housing
+data/publications.csv,primary_topic,RURAL_DEVELOPMENT,Rural development
+data/publications.csv,primary_topic,SPORT_LEISURE,Sport and leisure
+data/publications.csv,primary_topic,THEORY_GATEWAY,Theory gateways and reviews
+data/publications.csv,primary_topic,TOURISM_HERITAGE_PLACE,"Tourism, heritage, place"
+data/publications.csv,primary_topic,URBAN_RENEWAL_DESIGN,Urban renewal and design
+data/publications.csv,topic_confidence,T2,T2
+data/publications.csv,topic_confidence,T3,T3
+data/publications.csv,policy_marker,0,0
+data/publications.csv,policy_marker,1,1
+data/publications.csv,design_marker,0,0
+data/publications.csv,design_marker,1,1
+data/publications.csv,measurement_marker,0,0
+data/publications.csv,measurement_marker,1,1
+data/publications.csv,period,1994–2011: antecedents,1994–2011: antecedents
+data/publications.csv,period,2012–2016: gateway formation,2012–2016: gateway formation
+data/publications.csv,period,2017–2019: domestic relay,2017–2019: domestic relay
+data/publications.csv,period,2020–2022: rapid application,2020–2022: rapid application
+data/publications.csv,period,2023–2025: expansion and convergence,2023–2025: expansion and convergence
+data/publications.csv,period,2026: incomplete,2026: incomplete
+data/publications.csv,venue_field_complete,ARCH_DES_HER,"Architecture, design, and heritage"
+data/publications.csv,venue_field_complete,CULT_MEDIA,"Culture, arts, and media"
+data/publications.csv,venue_field_complete,ECON_BUS_CONS,"Economics, business, and consumption"
+data/publications.csv,venue_field_complete,EDUCATION,Education
+data/publications.csv,venue_field_complete,INFO_TECH,Information and library studies
+data/publications.csv,venue_field_complete,INTERDISC_OTHER,Interdisciplinary/other
+data/publications.csv,venue_field_complete,MATH_SYSTEMS,Mathematics and systems science
+data/publications.csv,venue_field_complete,RURAL_AGRI,Rural and agricultural studies
+data/publications.csv,venue_field_complete,SOC_POLICY,Social science and policy
+data/publications.csv,venue_field_complete,SPORT_LEISURE,Sport and leisure
+data/publications.csv,venue_field_complete,TOUR_HOSP,Tourism and hospitality
+data/publications.csv,venue_field_complete,URBAN_PLAN_GEO,Urban planning and geography
+data/publications.csv,venue_field_confidence,T2,T2
+data/publications.csv,venue_field_confidence,T3,T3

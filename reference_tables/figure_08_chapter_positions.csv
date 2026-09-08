@@ -1,0 +1,18 @@
+chapter_id,chapter_no,source_year,published_source,target_work_id,citing_source_id,branch_topic,branch,branch_y,label,point_offset,plot_y
+CN-CH-08,8,2016,Rural Public Cultural Space,WORK-80AC7412450E,CITING-WORK-05D890D10CC4,RURAL_DEVELOPMENT,Rural development,5,8,0,5
+CN-CH-06,6,2017,Building Cultural Scenes and Cultivating Endogenous Drivers,WORK-CBCE82BF26D4,,PUBLIC_CULTURE_COMMUNITY,Public culture and community,6,6,-0.31,5.69
+CN-CH-11,11,2017,Beijing 706 Youth Space,WORK-84D006C073AB,CITING-WORK-A43A4CEBCB00,PUBLIC_CULTURE_COMMUNITY,Public culture and community,6,11,0.31,6.31
+CN-CH-07,7,2019,Urban Neighbourhood Public Cultural Space,WORK-11C4AAF2C2BE,CITING-WORK-0930DA6EE1D5,PUBLIC_CULTURE_COMMUNITY,Public culture and community,6,7,0,6
+CN-CH-18,18,2021,The Aesthetic Scene,,,ART_IDENTITY_EDUCATION,"Arts, identity, and critique",1,18,0,1
+CN-CH-10,10,2021,Public Library Spatial Development,WORK-71B4564696D6,CITING-WORK-FA0DE59532B6,PUBLIC_CULTURE_COMMUNITY,Public culture and community,6,10,0,6
+CN-CH-04,4,2021,Industrial Land Renewal in Guangzhou from the Perspective of Scenes Theory,,CITING-WORK-10AC54CF6E89,URBAN_RENEWAL_DESIGN,Urban renewal and design,8,4,0,8
+CN-CH-02,2,2021,Bohemian Cultural Scenes and Creative Development of Chinese Cities,WORK-088D81711937,,CULTURAL_CREATIVE_INNOVATION,Creative development and talent,9,2,0,9
+CN-CH-17,17,2022,Policy Translation of Scenes in Chengdu,,CITING-WORK-2717AA9E5C33,POLICY_GOVERNANCE_MEASUREMENT,"Policy, governance, and city-making",2,17,0,2
+CN-CH-09,9,2022,Yellow River National Cultural Park,WORK-5FB58454D8FB,CITING-WORK-593742EE67B8,TOURISM_HERITAGE_PLACE,"Tourism, heritage, and place",4,9,-0.31,3.69
+CN-CH-14,14,2022,Cultural Landscape Reproduction of Religious Architecture,WORK-A68E3F94955B,,TOURISM_HERITAGE_PLACE,"Tourism, heritage, and place",4,14,0.31,4.31
+CN-CH-13,13,2022,The Buzz Productivity of Scenes,WORK-086D6264647C,CITING-WORK-4744E5B52383,PUBLIC_CULTURE_COMMUNITY,Public culture and community,6,13,0,6
+CN-CH-05,5,2023,Attractiveness of Virtual Cultural Spaces,WORK-BE474230E812,CITING-WORK-9CC406CCBC4E,DIGITAL_VIRTUAL_MEDIA,Digital and virtual scenes,7,5,0,7
+CN-CH-16,16,2024,Scene-Based City Making in Chengdu,,CITING-WORK-8569C86672A3,POLICY_GOVERNANCE_MEASUREMENT,"Policy, governance, and city-making",2,16,0,2
+CN-CH-12,12,2024,The Logic of Buzz at Sanlitun Taikoo Li,WORK-26AA7287CE85,CITING-WORK-9168F1690B59,CULTURAL_CONSUMPTION_COMMERCIAL,Cultural consumption,3,12,0,3
+CN-CH-03,3,2024,The Scene Logic of Innovative Talent Agglomeration,,,CULTURAL_CREATIVE_INNOVATION,Creative development and talent,9,3,0,9
+CN-CH-15,15,2025,Reconfiguring Heritage Hip-Hop in China,,,ART_IDENTITY_EDUCATION,"Arts, identity, and critique",1,15,0,1

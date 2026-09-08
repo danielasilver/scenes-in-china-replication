@@ -1,0 +1,54 @@
+file,variable,type,definition,missing_or_allowed_values
+data/authorships.csv,target_work_id,string,Stable publication identifier; joins to publications.target_work_id.,No missing values except unmatched chapter sources.
+data/authorships.csv,author_normalized,string,Previously normalized author name; one author/work row.,"Names are provisional string identities, not affiliation-disambiguated people."
+data/chapter_sources.csv,chapter_id,string,Stable volume chapter identifier.,CN-CH-02 through CN-CH-18.
+data/chapter_sources.csv,chapter_no,integer,Number of the focal chapter in the volume.,2 through 18; Chapter 1 supplies framing.
+data/chapter_sources.csv,source_year,integer,Source publication year used to position a chapter in Figure 8.,Chapter 14 uses online year 2022; its target record uses issue year 2023.
+data/chapter_sources.csv,published_source,string,Title of the chapter’s identified published source.,Retained from the final chapter-source crosswalk.
+data/chapter_sources.csv,target_work_id,string,Stable publication identifier; joins to publications.target_work_id.,No missing values except unmatched chapter sources.
+data/chapter_sources.csv,citing_source_id,string,Stable citing-publication identifier; joins to citing_publications.citing_source_id.,Blank when no citing-source identifier is attached; Figure 8 does not require this field.
+data/chapter_sources.csv,branch_topic,category,Assigned thematic branch of the chapter.,Topic code mapped to nine chapter branches in the Figure 8 script.
+data/citation_counts.csv,target_work_id,string,Stable publication identifier; joins to publications.target_work_id.,No missing values except unmatched chapter sources.
+data/citation_counts.csv,database,category,Database displaying the target citation count.,Wanfang; Google Scholar; Baidu Scholar; OpenAlex; Crossref.
+data/citation_counts.csv,observation_date,date YYYY-MM-DD,Date of the latest accepted count retained for this target/database.,Counts have different observation dates; this is not a live query.
+data/citation_counts.csv,displayed_citation_count,nonnegative integer,Citation total displayed by this database for the target.,Zero is an observed zero. No-match and inaccessible records have no row.
+data/citation_counts.csv,evidence_url,URL,Public record or query retained as evidence for the observation.,Link availability may change after collection.
+data/citation_counts.csv,confidence,category,Stored confidence of the count observation.,T1/T2/T3 as recorded.
+data/citation_relations.csv,citing_source_id,string,Stable citing-publication identifier; joins to citing_publications.citing_source_id.,No missing values.
+data/citation_relations.csv,target_work_id,string,Stable publication identifier; joins to publications.target_work_id.,No missing values except unmatched chapter sources.
+data/citation_relations.csv,databases,string list,Source databases that exposed this citing-publication/target relation.,Semicolon-separated unique labels; a pair is counted once regardless of database count.
+data/citation_relations.csv,first_observed,date YYYY-MM-DD,Earliest saved observation date for the relation.,"Observation date, not publication year."
+data/citation_relations.csv,last_observed,date YYYY-MM-DD,Latest saved observation date for the relation.,"Observation date, not publication year."
+data/citing_publications.csv,citing_source_id,string,Stable citing-publication identifier; joins to citing_publications.citing_source_id.,No missing values.
+data/citing_publications.csv,title,string,Canonical title retained in the cleaned database.,Blank only if unavailable.
+data/citing_publications.csv,authors,string,Bibliographic author string as retained in the cleaned record.,Blank means author metadata unavailable; not parsed during replication.
+data/citing_publications.csv,year,integer,Recorded publication year.,Blank means year unavailable; undated citing publications are excluded from time calculations.
+data/citing_publications.csv,venue,string,"Journal, collection, publisher, or other publication venue.",Blank means venue unavailable.
+data/citing_publications.csv,doi,string,Recorded DOI of a citing publication.,Blank means no DOI recorded.
+data/citing_publications.csv,document_type,category,Stored publication type of a citing source.,Blank or unknown means unavailable.
+data/citing_publications.csv,language,category,Recorded language of a citing source.,Blank or unknown means unavailable.
+data/citing_publications.csv,harmonized_field,category,Final disciplinary field assigned to a citing publication.,Field codes listed below; provisional assignments remain included.
+data/citing_publications.csv,field_confidence,category,Evidence confidence of a citing-field assignment.,T1 primary evidence; T2 verified synthesis; T3 provisional assignment.
+data/publications.csv,target_work_id,string,Stable publication identifier; joins to publications.target_work_id.,No missing values except unmatched chapter sources.
+data/publications.csv,title,string,Canonical title retained in the cleaned database.,Blank only if unavailable.
+data/publications.csv,title_zh,string,"Chinese title, when available.",Blank means no Chinese title recorded.
+data/publications.csv,title_en,string,"English title, when available.",Blank means no English title recorded.
+data/publications.csv,authors,string,Bibliographic author string as retained in the cleaned record.,Blank means author metadata unavailable; not parsed during replication.
+data/publications.csv,year,integer,Recorded publication year.,Blank means year unavailable; undated citing publications are excluded from time calculations.
+data/publications.csv,venue,string,"Journal, collection, publisher, or other publication venue.",Blank means venue unavailable.
+data/publications.csv,work_type,category,Stored publication type used in forming the scholarly sample.,Values listed below.
+data/publications.csv,doi_or_isbn,string,"Recorded DOI or ISBN; kept as an identifier, not a number.",Blank means no identifier recorded.
+data/publications.csv,scenes_membership_tier,category,Final membership classification.,confirmed_scenes; probable_scenes; adjacent_convergent.
+data/publications.csv,scenes_core_member,boolean,TRUE exactly when membership is confirmed_scenes.,TRUE/FALSE; no missing values.
+data/publications.csv,primary_periodical,boolean,TRUE for the primary journal and collection-article population.,TRUE/FALSE; no missing values.
+data/publications.csv,primary_topic,category,Final primary topic code assigned to the publication.,One code per work; labels listed in the code values table.
+data/publications.csv,topic_confidence,category,Recorded evidence-confidence code for the topic assignment.,T1/T2/T3 as stored; final coding can remain provisional.
+data/publications.csv,policy_marker,binary integer,"Final title marker: 1 when a policy expression was coded, otherwise 0.",0/1; no missing values.
+data/publications.csv,design_marker,binary integer,"Final title marker: 1 when a design expression was coded, otherwise 0.",0/1; no missing values.
+data/publications.csv,measurement_marker,binary integer,"Final title marker: 1 when a measurement expression was coded, otherwise 0.",0/1; no missing values.
+data/publications.csv,period,category,Stored publication-year period.,Six named periods; the four middle periods enter Figures 2 and 6.
+data/publications.csv,venue_field_complete,category,Final harmonized venue field for a confirmed primary publication.,Blank outside the 488 confirmed primary works; field codes listed below.
+data/publications.csv,venue_field_confidence,category,Evidence confidence attached to the final venue field.,Blank outside the 488 confirmed primary works.
+config/citation_history_cases.csv,target_work_id,string,Stable publication identifier; joins to publications.target_work_id.,No missing values except unmatched chapter sources.
+config/citation_history_cases.csv,case_order,integer,Order assigned to a selected citation-history case.,Stored ordering of the six displayed cases; values need not be consecutive.
+config/citation_history_cases.csv,case_label,string,Short author/year label for a selected citation-history case.,The six labels displayed in Figure 4.
